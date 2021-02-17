@@ -44,9 +44,11 @@ class Main extends PluginBase
                                         $names = implode(", ", $players);
                                         $eco->reduceMoney($sender, $amount);
                                         $this->getServer()->broadcastMessage(Main::PREFIX . "§6The Players: §e\n" . $names . "\n§3Become §a§l" . $result . " Coins §r§3.\n" . Main::PREFIX . "§3Very thanks §c" . $sender->getName() . " §3for your spend of §a" . $amount . "x Coins§3 ! §c<3");
-                                        if (!$online->isOp()) {
-                                            if ($online !== $sender) {
-                                                $eco->addMoney($online, $result);
+                                        foreach ($this->getServer()->getOnlinePlayers() as $online) {
+                                            if (!$online->isOp()) {
+                                                if ($online !== $sender) {
+                                                    $eco->addMoney($online, $result);
+                                                }
                                             }
                                         }
                                     } else {
