@@ -10,7 +10,7 @@ use pocketmine\Player;
 class Main extends PluginBase
 {
 
-    const PREFIX = "§8[§6§lMoneyDrop§r§8] ";
+    const PREFIX = "§8[§6§lMinera§r§8] ";
 
     public function onEnable()
     {
