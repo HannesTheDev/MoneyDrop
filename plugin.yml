@@ -1,0 +1,11 @@
+name: MineraMoneyDrop
+main: HannesTheDev\MineraMoneyDrop\Main
+version: 1.0.0
+api: 3.0.0
+author: HannesTheDev
+description: The original money drop plugin!
+
+commands:
+  moneydrop:
+    description: "Make a money drop"
+    usage: "/moneydrop <amout>"
