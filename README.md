@@ -10,7 +10,7 @@ Command | Description | Default | Alias | Permissions
 <img src="https://github.com/HannesTheDev/MineraMoneyDrop/blob/main/mineramoneydrop.png"></img> <br>
 
 ## Soon
-- [ ] Language with switch in settings
+- [x] Language with switch in settings
 - [ ] Make a big event bot with timed broadcaster message
 
 ## Contact
