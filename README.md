@@ -10,8 +10,8 @@ Command | Description | Default | Alias | Permissions
 <img src="https://github.com/HannesTheDev/MineraMoneyDrop/blob/main/mineramoneydrop.png"></img> <br>
 
 ## Soon
-- [ ] Language with switch in settings
-- [ ] Make a big event bot with timed broadcaster message
+- [ ] Other language support
+- [ ] Make a big event pot with timed broadcaster message
 
 ## Contact
 - Diacord Tag: HannesTheDev#2941
