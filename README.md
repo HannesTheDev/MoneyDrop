@@ -22,3 +22,4 @@ This project is licensed under the GNU PUBLIC LICENSE - see the [LICENSE](/LICEN
 
 ## Others
 If you had any questions, ideas or an error, you'll can contact me on [discord](https://discord.gg/HVvQv2TxWs).
+Recommendation: Please use on larger server first.
